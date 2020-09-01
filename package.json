@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-digitalservices",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "EsLint config of Digital Services",
   "keywords": [
     "eslint",
@@ -11,7 +11,7 @@
   "main": "lib/index.js",
   "scripts": {
     "run-module": "node lib/index.js",
-    "test": "node test/index.js"
+    "test": "cd tests/lib/rules/ && mocha"
   },
   "dependencies": {
     "requireindex": "~1.1.0"
