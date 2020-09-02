@@ -35,14 +35,25 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "digitalservices/rule-name": 2
+        "digitalservices/rule": "error"
     }
 }
 ```
 
 ## Supported Rules
 
-* Fill in provided rules here
+```
+constants-case,
+strings-case,
+nsi-case,
+no-literal-expression,
+styles-import,
+key-map-prop,
+props-on-new-line,
+wrap-on-click,
+```
+
+Documentation on rules in **docs/rules**
 
 
 
