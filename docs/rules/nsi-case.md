@@ -34,3 +34,19 @@ const nsi = {
  }
 }
 ```
+
+###Настройка:
+>Settings:
+
+Вторым аргументом правило принимает массив путей файлов или папок, где это 
+правило будет работать.
+
+>Second argument accept array with paths of file or folder paths, where it is
+ the rule will work
+
+Пример:
+>Example:
+
+```text
+  "digitalservices/nsi-case": ["error", ['app/resources/nsi.js']]
+```
