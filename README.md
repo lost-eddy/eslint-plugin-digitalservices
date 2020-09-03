@@ -55,7 +55,24 @@ wrap-on-click,
 
 Documentation on rules in **docs/rules**
 
+###Default config
 
-
-
-
+```text
+"rules": {
+    "digitalservices/constants-case": ["error", ['app/constants/common.js']],
+    "digitalservices/strings-case": ["error", ['app/resources/strings.js']],
+    "digitalservices/nsi-case": ["error", ['app/resources/nsi.js']],
+    "digitalservices/no-literal-expression": ["error", {
+      ignoreFiles: [
+        'app/api',
+        'app/constants',
+        'app/resources',
+        'app/store',
+        'styles.js'
+      ]}],
+    "digitalservices/styles-import": "error",
+    "digitalservices/key-map-prop": "error",
+    "digitalservices/props-on-new-line": "error",
+    "digitalservices/wrap-on-click": "error",
+  },
+```
