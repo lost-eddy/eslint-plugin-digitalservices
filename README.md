@@ -1,6 +1,6 @@
 # eslint-plugin-digitalservices
 
-EsLint config of Digital Services
+EsLint plugin of Digital Services
 
 ## Installation
 
@@ -55,7 +55,7 @@ wrap-on-click,
 
 Documentation on rules in **docs/rules**
 
-###Default config
+### Default config
 
 ```text
 "rules": {
@@ -67,7 +67,6 @@ Documentation on rules in **docs/rules**
         'app/api',
         'app/constants',
         'app/resources',
-        'app/store',
         'styles.js'
       ]}],
     "digitalservices/styles-import": "error",
