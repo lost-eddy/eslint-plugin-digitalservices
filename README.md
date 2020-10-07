@@ -48,7 +48,6 @@ strings-case,
 nsi-case,
 no-literal-expression,
 styles-import,
-key-map-prop,
 props-on-new-line,
 wrap-on-click,
 ```
@@ -70,7 +69,6 @@ Documentation on rules in **docs/rules**
         'styles.js'
       ]}],
     "digitalservices/styles-import": "error",
-    "digitalservices/key-map-prop": "error",
     "digitalservices/props-on-new-line": "error",
     "digitalservices/wrap-on-click": "error",
   },
