@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-digitalservices",
-  "version": "1.12.281",
+  "version": "1.12.29",
   "description": "EsLint config of Digital Services",
   "keywords": [
     "eslint",
